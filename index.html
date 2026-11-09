@@ -1,0 +1,1084 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía DPE Pre Saber | Grado 10</title>
+
+<style>
+:root {
+  --bg:#101827;
+  --panel:#1b293b;
+  --panel2:#24354a;
+  --text:#edf3fa;
+  --muted:#a9b8ca;
+  --blue:#55aaff;
+  --green:#45d6a0;
+  --orange:#ffb65e;
+  --purple:#b69aff;
+  --red:#ff7777;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial,sans-serif;
+  line-height:1.7;
+}
+
+header{
+  padding:55px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#142b49,#234e75,#172b43);
+}
+
+header h1{
+  font-size:clamp(28px,5vw,48px);
+  margin:0;
+}
+
+header p{color:#d3e5f8}
+
+nav{
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:#101d2d;
+  padding:12px;
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  border-bottom:1px solid #344b63;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  padding:9px 14px;
+  background:#253950;
+  border-radius:8px;
+  white-space:nowrap;
+  font-size:13px;
+}
+
+nav a:hover{background:#3974a9}
+
+main{
+  max-width:1050px;
+  margin:auto;
+  padding:25px 18px;
+}
+
+section{
+  margin:35px 0;
+  scroll-margin-top:75px;
+}
+
+.area{
+  padding:25px;
+  background:var(--panel);
+  border-radius:16px;
+  border-top:4px solid var(--blue);
+}
+
+.area h2{font-size:28px}
+
+.topic{
+  margin:20px 0;
+  padding:20px;
+  background:var(--panel2);
+  border-radius:12px;
+}
+
+.topic h3{color:var(--blue)}
+
+.example{
+  background:#142f37;
+  border-left:4px solid var(--green);
+  padding:15px;
+  border-radius:8px;
+  margin:15px 0;
+}
+
+.formula{
+  background:#30314d;
+  color:#d5c9ff;
+  padding:14px;
+  border-radius:8px;
+  font-weight:bold;
+  overflow-x:auto;
+}
+
+.tip{
+  background:#42351e;
+  border-left:4px solid var(--orange);
+  padding:14px;
+  border-radius:8px;
+}
+
+.question{
+  background:#172638;
+  padding:18px;
+  border-radius:10px;
+  margin:15px 0;
+}
+
+button{
+  cursor:pointer;
+  border:0;
+  padding:10px 15px;
+  border-radius:8px;
+  background:#357ec1;
+  color:white;
+  font-weight:bold;
+  margin:5px 3px;
+}
+
+button:hover{filter:brightness(1.2)}
+
+.answer{
+  display:none;
+  color:var(--green);
+  padding:12px;
+  background:#14332c;
+  border-radius:8px;
+  margin-top:10px;
+}
+
+footer{
+  text-align:center;
+  padding:35px;
+  color:var(--muted);
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+  margin:15px 0;
+}
+
+td,th{
+  border:1px solid #43566b;
+  padding:10px;
+  text-align:left;
+}
+
+th{background:#304761}
+
+@media print{
+  body{background:white;color:#111}
+  nav,button{display:none}
+  .area,.topic,.question{background:white;color:#111;border:1px solid #aaa}
+  .example,.tip,.formula{background:#eee;color:#111}
+  .answer{display:block;background:#eee;color:#111}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>GUÍA DPE PRE SABER</h1>
+<h2>Preparación integral para grado 10°</h2>
+<p>Aprende, comprende, practica y domina las cinco áreas evaluadas.</p>
+<p>Material de estudio | Nivel intermedio y avanzado</p>
+</header>
+
+<nav>
+<a href="#matematicas">Matemáticas</a>
+<a href="#lectura">Lectura crítica</a>
+<a href="#naturales">Naturales</a>
+<a href="#sociales">Sociales</a>
+<a href="#ingles">Inglés</a>
+<a href="#simulacro">Simulacro</a>
+</nav>
+
+<main>
+
+<section>
+<h2>¿Cómo prepararte?</h2>
+<div class="topic">
+<p>Las pruebas Pre Saber e ICFES evalúan competencias. Esto significa que no basta con memorizar definiciones: debes interpretar información, relacionar conceptos, resolver problemas y justificar conclusiones.</p>
+
+<h3>Las cinco áreas</h3>
+<ol>
+<li>Matemáticas: razonamiento cuantitativo.</li>
+<li>Lectura Crítica: comprensión e interpretación.</li>
+<li>Ciencias Naturales: explicación de fenómenos.</li>
+<li>Sociales y Ciudadanas: análisis de situaciones sociales.</li>
+<li>Inglés: comprensión y uso del idioma.</li>
+</ol>
+<div class="tip">
+Consejo: estudia un tema, resuelve ejercicios y explica con tus propias palabras por qué una respuesta es correcta.
+</div>
+</div>
+</section>
+
+<!-- MATEMATICAS -->
+
+<section id="matematicas">
+<div class="area" style="border-color:#55aaff">
+<h2>1. MATEMÁTICAS</h2>
+<p>Esta área evalúa tu capacidad para utilizar números, fórmulas, gráficos y razonamiento lógico en situaciones reales.</p>
+
+<div class="topic">
+<h3>1.1. Porcentajes</h3>
+<p>Un porcentaje representa una cantidad expresada sobre 100.</p>
+<div class="formula">Porcentaje = (Parte / Total) × 100</div>
+<p>Para calcular un porcentaje de una cantidad, multiplicamos la cantidad por el porcentaje y dividimos entre 100.</p>
+<div class="example">
+<strong>Ejemplo:</strong><br>
+Una camisa cuesta $200.000 y tiene un descuento del 25 %.<br>
+25 × 200.000 / 100 = 50.000<br>
+Precio final = 200.000 - 50.000<br>
+<strong>Resultado: $150.000.</strong>
+</div>
+<p>También puedes calcular aumentos. Si un producto cuesta $80.000 y aumenta un 10 %:</p>
+<p>80.000 × 0,10 = 8.000</p>
+<p>Nuevo precio = $88.000.</p>
+</div>
+
+<div class="topic">
+<h3>1.2. Regla de tres</h3>
+<p>Se utiliza para encontrar una cantidad desconocida cuando existe una relación proporcional.</p>
+<div class="example">
+<strong>Ejemplo:</strong><br>
+Si 4 cuadernos cuestan $20.000, ¿cuánto cuestan 7?</p>
+<p>4 → 20.000</p>
+<p>7 → X</p>
+<div class="formula">X = (7 × 20.000) / 4</div>
+<strong>Resultado: $35.000.</strong>
+</div>
+<p>En la proporcionalidad directa, si aumenta una cantidad, también aumenta la otra.</p>
+<p>En la proporcionalidad inversa, cuando una aumenta, la otra disminuye.</p>
+</div>
+
+<div class="topic">
+<h3>1.3. Ecuaciones de primer grado</h3>
+<p>Una ecuación es una igualdad matemática que contiene una incógnita.</p>
+<div class="example">
+<strong>Ejemplo:</strong><br>
+3x + 5 = 20<br>
+3x = 20 - 5<br>
+3x = 15<br>
+x = 15 / 3<br>
+<strong>x = 5.</strong>
+</div>
+<p>Recuerda: para despejar una incógnita debes realizar operaciones equivalentes en ambos lados de la igualdad.</p>
+</div>
+
+<div class="topic">
+<h3>1.4. Sistemas de ecuaciones</h3>
+<p>Son dos o más ecuaciones que comparten incógnitas.</p>
+<div class="example">
+<strong>Ejemplo:</strong><br>
+x + y = 10<br>
+x - y = 2<br><br>
+Sumamos las ecuaciones:<br>
+2x = 12<br>
+x = 6<br>
+Sustituimos:<br>
+6 + y = 10<br>
+y = 4<br>
+<strong>Solución: x = 6, y = 4.</strong>
+</div>
+<p>Métodos frecuentes: sustitución, igualación y reducción.</p>
+</div>
+
+<div class="topic">
+<h3>1.5. Funciones lineales</h3>
+<p>Una función relaciona una variable independiente con una variable dependiente.</p>
+<div class="formula">y = mx + b</div>
+<ul>
+<li>m: pendiente o inclinación.</li>
+<li>b: punto donde la recta corta el eje vertical.</li>
+<li>x: variable independiente.</li>
+<li>y: variable dependiente.</li>
+</ul>
+<div class="example">
+Si y = 2x + 3 y x = 4:<br>
+y = 2(4) + 3<br>
+y = 11.
+</div>
+</div>
+
+<div class="topic">
+<h3>1.6. Funciones cuadráticas</h3>
+<p>Son funciones cuya expresión general contiene una variable elevada al cuadrado.</p>
+<div class="formula">f(x) = ax² + bx + c</div>
+<p>Su gráfica es una parábola.</p>
+<p>Si a es positivo, abre hacia arriba. Si a es negativo, abre hacia abajo.</p>
+<p>El vértice se calcula mediante:</p>
+<div class="formula">x = -b / 2a</div>
+<p>Para encontrar la coordenada y, se sustituye ese valor en la función.</p>
+</div>
+
+<div class="topic">
+<h3>1.7. Estadística</h3>
+<p>La estadística permite organizar, interpretar y analizar datos.</p>
+<ul>
+<li><strong>Media:</strong> suma de los datos dividida entre el número de datos.</li>
+<li><strong>Mediana:</strong> valor central cuando los datos están ordenados.</li>
+<li><strong>Moda:</strong> dato que más se repite.</li>
+<li><strong>Rango:</strong> valor máximo menos valor mínimo.</li>
+</ul>
+<div class="example">
+Datos: 2, 4, 4, 6, 9.<br>
+Media = 25 / 5 = 5.<br>
+Mediana = 4.<br>
+Moda = 4.<br>
+Rango = 9 - 2 = 7.
+</div>
+</div>
+
+<div class="topic">
+<h3>1.8. Probabilidad</h3>
+<p>La probabilidad mide qué tan posible es que ocurra un evento.</p>
+<div class="formula">P(evento) = Casos favorables / Casos posibles</div>
+<div class="example">
+Se lanza un dado de seis caras. ¿Cuál es la probabilidad de obtener un número par?</p>
+<p>Casos favorables: 2, 4 y 6.</p>
+<p>Casos posibles: 6.</p>
+<p>P = 3/6 = 1/2 = 50 %.</p>
+</div>
+</div>
+
+<div class="topic">
+<h3>1.9. Geometría</h3>
+<p>Debes conocer las principales fórmulas:</p>
+<table>
+<tr><th>Figura</th><th>Fórmula</th></tr>
+<tr><td>Cuadrado</td><td>A = lado²</td></tr>
+<tr><td>Rectángulo</td><td>A = base × altura</td></tr>
+<tr><td>Triángulo</td><td>A = (base × altura) / 2</td></tr>
+<tr><td>Círculo</td><td>A = π × radio²</td></tr>
+<tr><td>Circunferencia</td><td>C = 2πr</td></tr>
+<tr><td>Cubo</td><td>V = lado³</td></tr>
+<tr><td>Cilindro</td><td>V = πr²h</td></tr>
+</table>
+<p>También debes dominar el teorema de Pitágoras:</p>
+<div class="formula">a² + b² = c²</div>
+<p>Se aplica a triángulos rectángulos. c representa la hipotenusa.</p>
+</div>
+
+<div class="topic">
+<h3>1.10. Interpretación de gráficas</h3>
+<p>En una gráfica debes identificar:</p>
+<ul>
+<li>El título y las variables.</li>
+<li>Las unidades de medida.</li>
+<li>Los valores máximos y mínimos.</li>
+<li>Las tendencias crecientes y decrecientes.</li>
+<li>Las relaciones entre las variables.</li>
+</ul>
+<div class="tip">No respondas únicamente mirando la forma de una gráfica. Comprueba los números y las unidades de los ejes.</div>
+</div>
+</div>
+</section>
+
+<!-- LECTURA -->
+
+<section id="lectura">
+<div class="area" style="border-color:#45d6a0">
+<h2>2. LECTURA CRÍTICA</h2>
+<p>Evalúa la capacidad de comprender textos, interpretar ideas y analizar argumentos.</p>
+
+<div class="topic">
+<h3>2.1. Idea principal</h3>
+<p>Es la información más importante que el autor quiere transmitir.</p>
+<div class="example">
+Texto: "La contaminación de los ríos afecta a los animales, perjudica la salud humana y reduce la disponibilidad de agua potable".<br><br>
+Idea principal: la contaminación de los ríos produce consecuencias ambientales y sociales.
+</div>
+</div>
+
+<div class="topic">
+<h3>2.2. Ideas secundarias</h3>
+<p>Son explicaciones, ejemplos o datos que complementan la idea principal.</p>
+<p>Si la idea principal es la contaminación de los ríos, las ideas secundarias pueden ser la muerte de peces y las enfermedades asociadas al agua contaminada.</p>
+</div>
+
+<div class="topic">
+<h3>2.3. Inferencias</h3>
+<p>Inferir significa deducir información que no está escrita directamente, utilizando las pistas del texto.</p>
+<div class="example">
+Texto: "Juan salió de casa con paraguas y botas. El cielo estaba oscuro".<br><br>
+Inferencia: probablemente esperaba lluvia.
+</div>
+</div>
+
+<div class="topic">
+<h3>2.4. Intención comunicativa</h3>
+<p>Es el propósito que tiene el autor al escribir.</p>
+<ul>
+<li>Informar: presentar datos o hechos.</li>
+<li>Convencer: defender una opinión.</li>
+<li>Criticar: señalar problemas.</li>
+<li>Entretener: producir interés o diversión.</li>
+<li>Explicar: enseñar cómo funciona algo.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>2.5. Argumentos y conclusiones</h3>
+<p>Un argumento es una razón que apoya una afirmación.</p>
+<p>La conclusión es la idea final que se obtiene a partir de los argumentos.</p>
+<div class="example">
+Afirmación: debemos proteger los bosques.<br>
+Argumento: los bosques regulan el clima y conservan la biodiversidad.<br>
+Conclusión: proteger los bosques es fundamental para el equilibrio ambiental.
+</div>
+</div>
+
+<div class="topic">
+<h3>2.6. Tipos de textos</h3>
+<ul>
+<li><strong>Narrativo:</strong> cuenta acontecimientos.</li>
+<li><strong>Expositivo:</strong> explica información.</li>
+<li><strong>Argumentativo:</strong> defiende una postura.</li>
+<li><strong>Descriptivo:</strong> presenta características.</li>
+<li><strong>Instructivo:</strong> explica procedimientos.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>2.7. Punto de vista y contradicciones</h3>
+<p>Debes identificar quién habla, qué postura defiende y si sus argumentos son coherentes.</p>
+<p>Una contradicción aparece cuando dos afirmaciones no pueden ser verdaderas al mismo tiempo en el mismo sentido.</p>
+<div class="tip">En lectura crítica, evita elegir respuestas que parezcan correctas por conocimiento personal, pero que no estén respaldadas por el texto.</div>
+</div>
+</div>
+</section>
+
+<!-- NATURALES -->
+
+<section id="naturales">
+<div class="area" style="border-color:#ffb65e">
+<h2>3. CIENCIAS NATURALES</h2>
+<p>Estudia los fenómenos de la vida, la materia, la energía y el ambiente.</p>
+
+<div class="topic">
+<h3>3.1. La célula</h3>
+<p>Es la unidad estructural y funcional básica de los seres vivos.</p>
+<ul>
+<li>Membrana celular: regula la entrada y salida de sustancias.</li>
+<li>Citoplasma: contiene los orgánulos.</li>
+<li>Núcleo: contiene la mayor parte del material genético.</li>
+<li>Mitocondria: participa en la producción de ATP.</li>
+<li>Ribosomas: fabrican proteínas.</li>
+</ul>
+<p>Las células procariotas no poseen núcleo delimitado por membrana. Las eucariotas sí.</p>
+</div>
+
+<div class="topic">
+<h3>3.2. ADN y genética</h3>
+<p>El ADN contiene información hereditaria.</p>
+<p>Los genes son segmentos de ADN que participan en la determinación de características.</p>
+<ul>
+<li>Genotipo: composición genética.</li>
+<li>Fenotipo: características observables.</li>
+<li>Alelo dominante: puede manifestarse con una sola copia en un modelo de dominancia completa.</li>
+<li>Alelo recesivo: generalmente necesita dos copias para manifestarse en ese modelo.</li>
+</ul>
+<div class="example">
+Cruce: Aa × Aa.<br>
+Posibles combinaciones: AA, Aa, Aa, aa.<br>
+Probabilidad de aa: 1/4 = 25 %.
+</div>
+</div>
+
+<div class="topic">
+<h3>3.3. Fotosíntesis y respiración celular</h3>
+<p>La fotosíntesis permite a las plantas producir glucosa utilizando luz solar, agua y dióxido de carbono.</p>
+<div class="formula">6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂</div>
+<p>La respiración celular utiliza nutrientes para obtener energía en forma de ATP.</p>
+<div class="formula">Glucosa + oxígeno → dióxido de carbono + agua + ATP</div>
+</div>
+
+<div class="topic">
+<h3>3.4. Ecosistemas y cadenas alimenticias</h3>
+<p>Un ecosistema está formado por organismos y el ambiente donde interactúan.</p>
+<ul>
+<li>Productores: plantas y organismos fotosintéticos.</li>
+<li>Consumidores primarios: herbívoros.</li>
+<li>Consumidores secundarios: organismos que comen consumidores primarios.</li>
+<li>Descomponedores: hongos y bacterias, entre otros.</li>
+</ul>
+<div class="example">
+Hierba → saltamontes → rana → serpiente.<br>
+La energía pasa de un organismo a otro a través de la alimentación.
+</div>
+</div>
+
+<div class="topic">
+<h3>3.5. Fuerza y movimiento</h3>
+<p>La fuerza puede modificar el movimiento o deformar un objeto.</p>
+<div class="formula">F = m × a</div>
+<p>Esta es la segunda ley de Newton.</p>
+<ul>
+<li>F: fuerza en newtons.</li>
+<li>m: masa en kilogramos.</li>
+<li>a: aceleración en m/s².</li>
+</ul>
+<div class="example">
+Un objeto de 5 kg acelera a 2 m/s².<br>
+F = 5 × 2 = 10 N.
+</div>
+</div>
+
+<div class="topic">
+<h3>3.6. Movimiento rectilíneo uniforme (MRU)</h3>
+<p>Es un movimiento en línea recta con velocidad constante.</p>
+<div class="formula">d = v × t</div>
+<div class="formula">v = d / t</div>
+<div class="formula">t = d / v</div>
+<div class="example">
+Un vehículo viaja a 60 km/h durante 2 horas.<br>
+d = 60 × 2 = 120 km.
+</div>
+</div>
+
+<div class="topic">
+<h3>3.7. Movimiento uniformemente acelerado (MRUA)</h3>
+<p>La velocidad cambia de manera uniforme porque existe una aceleración constante.</p>
+<div class="formula">vf = vi + a × t</div>
+<div class="formula">d = vi × t + (a × t²)/2</div>
+<div class="formula">vf² = vi² + 2ad</div>
+<p>vf: velocidad final; vi: velocidad inicial; a: aceleración; t: tiempo; d: desplazamiento.</p>
+</div>
+
+<div class="topic">
+<h3>3.8. Caída libre</h3>
+<p>Es el movimiento de un objeto bajo la acción de la gravedad, despreciando la resistencia del aire.</p>
+<div class="formula">g ≈ 9,8 m/s²</div>
+<div class="formula">v = g × t</div>
+<div class="formula">h = (g × t²)/2</div>
+<p>Estas dos últimas expresiones suponen que el objeto parte del reposo y cae verticalmente.</p>
+</div>
+
+<div class="topic">
+<h3>3.9. Química y materia</h3>
+<p>La materia es todo lo que tiene masa y ocupa espacio.</p>
+<ul>
+<li>Elemento: sustancia formada por un solo tipo de átomo.</li>
+<li>Compuesto: unión química de dos o más elementos.</li>
+<li>Mezcla homogénea: composición uniforme.</li>
+<li>Mezcla heterogénea: componentes distinguibles.</li>
+</ul>
+<p>Estados comunes: sólido, líquido y gaseoso.</p>
+</div>
+
+<div class="topic">
+<h3>3.10. Reacciones químicas</h3>
+<p>Una reacción química transforma unas sustancias en otras.</p>
+<p>Los reactivos son las sustancias iniciales y los productos son las sustancias obtenidas.</p>
+<div class="example">
+2H₂ + O₂ → 2H₂O<br>
+El hidrógeno reacciona con oxígeno y se forma agua.
+</div>
+<p>La materia se conserva: los átomos no desaparecen, se reorganizan.</p>
+</div>
+
+<div class="topic">
+<h3>3.11. Electricidad</h3>
+<p>La corriente eléctrica es el movimiento ordenado de cargas eléctricas.</p>
+<div class="formula">V = I × R</div>
+<p>Ley de Ohm:</p>
+<ul>
+<li>V: voltaje, medido en voltios.</li>
+<li>I: corriente, medida en amperios.</li>
+<li>R: resistencia, medida en ohmios.</li>
+</ul>
+<div class="example">
+Si V = 12 V y R = 4 Ω:<br>
+I = 12 / 4 = 3 A.
+</div>
+</div>
+
+<div class="topic">
+<h3>3.12. Método científico</h3>
+<ol>
+<li>Observación del fenómeno.</li>
+<li>Planteamiento del problema.</li>
+<li>Formulación de hipótesis.</li>
+<li>Diseño del experimento.</li>
+<li>Recolección de datos.</li>
+<li>Análisis de resultados.</li>
+<li>Conclusiones.</li>
+</ol>
+<p>Una variable independiente es la que se modifica. La dependiente es la que se mide. Las variables controladas se mantienen constantes.</p>
+</div>
+</div>
+</section>
+
+<!-- SOCIALES -->
+
+<section id="sociales">
+<div class="area" style="border-color:#b69aff">
+<h2>4. SOCIALES Y CIUDADANAS</h2>
+<p>Evalúa tu capacidad para comprender procesos históricos, económicos, políticos y sociales.</p>
+
+<div class="topic">
+<h3>4.1. Constitución Política de Colombia</h3>
+<p>La Constitución de 1991 es la norma fundamental del Estado colombiano.</p>
+<p>Establece derechos, deberes, instituciones y principios de organización política.</p>
+<p>Colombia se define en su artículo 1 como un Estado social de derecho, organizado como república unitaria, descentralizada, democrática, participativa y pluralista.</p>
+</div>
+
+<div class="topic">
+<h3>4.2. Derechos fundamentales</h3>
+<p>Son derechos esenciales de las personas.</p>
+Algunos ejemplos:
+<ul>
+<li>Derecho a la vida.</li>
+<li>Derecho a la igualdad.</li>
+<li>Libertad de expresión.</li>
+<li>Derecho a la intimidad.</li>
+<li>Libertad de conciencia.</li>
+<li>Derecho al debido proceso.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>4.3. Mecanismos de participación</h3>
+<table>
+<tr><th>Mecanismo</th><th>Descripción</th></tr>
+<tr><td>Voto</td><td>Elegir representantes o decidir en elecciones.</td></tr>
+<tr><td>Referendo</td><td>Votar para aprobar o rechazar una norma o decisión normativa.</td></tr>
+<tr><td>Plebiscito</td><td>Apoyar o rechazar una decisión política del Ejecutivo.</td></tr>
+<tr><td>Consulta popular</td><td>Responder una pregunta de carácter general.</td></tr>
+<tr><td>Cabildo abierto</td><td>Espacio de discusión pública en corporaciones territoriales.</td></tr>
+<tr><td>Revocatoria</td><td>Buscar terminar anticipadamente el mandato de un alcalde o gobernador, bajo requisitos legales.</td></tr>
+</table>
+</div>
+
+<div class="topic">
+<h3>4.4. Ramas del poder público</h3>
+<ul>
+<li><strong>Ejecutiva:</strong> administra el Estado y ejecuta políticas públicas.</li>
+<li><strong>Legislativa:</strong> elabora leyes y ejerce funciones de control político.</li>
+<li><strong>Judicial:</strong> administra justicia.</li>
+</ul>
+<p>El Congreso pertenece a la rama legislativa. El presidente encabeza la rama ejecutiva nacional.</p>
+</div>
+
+<div class="topic">
+<h3>4.5. Historia de Colombia</h3>
+<p>Algunos procesos fundamentales:</p>
+<ul>
+<li>Independencia: proceso desarrollado durante las primeras décadas del siglo XIX.</li>
+<li>Gran Colombia: proyecto político que agrupó territorios de la actual Colombia, Venezuela, Ecuador y Panamá.</li>
+<li>Constitución de 1886: estableció un Estado centralista.</li>
+<li>Guerra de los Mil Días: conflicto entre 1899 y 1902.</li>
+<li>Separación de Panamá: 1903.</li>
+<li>La Violencia: período de confrontación política y social, especialmente entre liberales y conservadores.</li>
+<li>Frente Nacional: acuerdo de alternancia del poder entre liberales y conservadores, entre 1958 y 1974.</li>
+<li>Constitución de 1991: nuevo marco constitucional.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>4.6. Economía básica</h3>
+<p>La economía estudia cómo las personas y sociedades utilizan recursos limitados para satisfacer necesidades.</p>
+<ul>
+<li>Oferta: cantidad que los productores desean vender.</li>
+<li>Demanda: cantidad que los consumidores desean comprar.</li>
+<li>Inflación: aumento generalizado y sostenido de los precios.</li>
+<li>Desempleo: situación de personas que buscan trabajo y no lo encuentran.</li>
+<li>PIB: valor de los bienes y servicios finales producidos en un territorio durante un período.</li>
+</ul>
+<div class="example">
+Si aumenta la demanda de un producto y la oferta permanece constante, su precio puede aumentar.
+</div>
+</div>
+
+<div class="topic">
+<h3>4.7. Globalización</h3>
+<p>Es el proceso de creciente interconexión entre países mediante el comercio, la tecnología, la cultura y las comunicaciones.</p>
+<p>Ventajas: intercambio cultural, acceso a mercados y difusión tecnológica.</p>
+<p>Desafíos: desigualdad, dependencia económica y pérdida de algunas tradiciones culturales.</p>
+</div>
+
+<div class="topic">
+<h3>4.8. Geografía y medio ambiente</h3>
+<p>Debes estudiar:</p>
+<ul>
+<li>Relieve y regiones naturales de Colombia.</li>
+<li>Climas y recursos hídricos.</li>
+<li>Urbanización y migración.</li>
+<li>Cambio climático.</li>
+<li>Deforestación y contaminación.</li>
+<li>Desarrollo sostenible.</li>
+</ul>
+<p>El desarrollo sostenible busca satisfacer las necesidades actuales sin comprometer las posibilidades de las generaciones futuras.</p>
+</div>
+
+<div class="topic">
+<h3>4.9. Análisis de conflictos sociales</h3>
+<p>Para analizar un conflicto identifica:</p>
+<ol>
+<li>Los actores involucrados.</li>
+<li>Los intereses de cada actor.</li>
+<li>Las causas del conflicto.</li>
+<li>Las consecuencias.</li>
+<li>Las posibles soluciones.</li>
+</ol>
+<div class="tip">Las preguntas de Sociales suelen presentar situaciones. No basta con memorizar fechas: debes comprender las causas y consecuencias de los procesos.</div>
+</div>
+</div>
+</section>
+
+<!-- INGLES -->
+
+<section id="ingles">
+<div class="area" style="border-color:#ff7777">
+<h2>5. INGLÉS</h2>
+<p>El objetivo es comprender textos, identificar estructuras gramaticales y utilizar vocabulario en contexto.</p>
+
+<div class="topic">
+<h3>5.1. Presente simple</h3>
+<p>Se utiliza para hábitos, rutinas y hechos generales.</p>
+<div class="formula">Subject + verb + complement</div>
+<p>Ejemplos:</p>
+<ul>
+<li>I study every day.</li>
+<li>She works in a hospital.</li>
+<li>They play football.</li>
+</ul>
+<p>Con he, she e it normalmente se añade -s o -es al verbo en afirmaciones.</p>
+</div>
+
+<div class="topic">
+<h3>5.2. Presente continuo</h3>
+<p>Se utiliza para acciones que están ocurriendo en el momento.</p>
+<div class="formula">Subject + am/is/are + verb-ing</div>
+<p>Ejemplos:</p>
+<ul>
+<li>I am studying.</li>
+<li>She is reading.</li>
+<li>They are playing.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>5.3. Pasado simple</h3>
+<p>Se utiliza para acciones terminadas en el pasado.</p>
+<div class="formula">Subject + past verb + complement</div>
+<ul>
+<li>I visited my grandmother.</li>
+<li>She studied yesterday.</li>
+<li>They went to school.</li>
+</ul>
+<p>Verbos regulares: generalmente añaden -ed. Los irregulares cambian de forma.</p>
+<table>
+<tr><th>Presente</th><th>Pasado</th></tr>
+<tr><td>Go</td><td>Went</td></tr>
+<tr><td>Eat</td><td>Ate</td></tr>
+<tr><td>See</td><td>Saw</td></tr>
+<tr><td>Write</td><td>Wrote</td></tr>
+<tr><td>Have</td><td>Had</td></tr>
+<tr><td>Do</td><td>Did</td></tr>
+</table>
+</div>
+
+<div class="topic">
+<h3>5.4. Futuro</h3>
+<p>Con will se expresan decisiones, predicciones y promesas.</p>
+<div class="formula">Subject + will + base verb</div>
+<p>Ejemplo: I will study tomorrow.</p>
+<p>Con going to se expresan planes e intenciones.</p>
+<p>Ejemplo: I am going to travel next year.</p>
+</div>
+
+<div class="topic">
+<h3>5.5. Comparativos y superlativos</h3>
+<p>Comparativos: permiten comparar dos elementos.</p>
+<ul>
+<li>Tall → taller than.</li>
+<li>Beautiful → more beautiful than.</li>
+<li>Good → better than.</li>
+</ul>
+<p>Superlativos: expresan el grado máximo dentro de un grupo.</p>
+<ul>
+<li>Tall → the tallest.</li>
+<li>Beautiful → the most beautiful.</li>
+<li>Good → the best.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>5.6. Pronombres</h3>
+<table>
+<tr><th>Pronombre</th><th>Significado</th></tr>
+<tr><td>I</td><td>Yo</td></tr>
+<tr><td>You</td><td>Tú / ustedes</td></tr>
+<tr><td>He</td><td>Él</td></tr>
+<tr><td>She</td><td>Ella</td></tr>
+<tr><td>It</td><td>Eso</td></tr>
+<tr><td>We</td><td>Nosotros</td></tr>
+<tr><td>They</td><td>Ellos</td></tr>
+</table>
+</div>
+
+<div class="topic">
+<h3>5.7. Preposiciones</h3>
+<ul>
+<li>In: dentro de, en.</li>
+<li>On: sobre, en.</li>
+<li>At: en, a una hora o lugar específico.</li>
+<li>Under: debajo de.</li>
+<li>Between: entre dos elementos.</li>
+<li>Behind: detrás de.</li>
+<li>Next to: al lado de.</li>
+</ul>
+</div>
+
+<div class="topic">
+<h3>5.8. Vocabulario esencial</h3>
+<table>
+<tr><th>Inglés</th><th>Español</th></tr>
+<tr><td>Environment</td><td>Medio ambiente</td></tr>
+<tr><td>Health</td><td>Salud</td></tr>
+<tr><td>Education</td><td>Educación</td></tr>
+<tr><td>Government</td><td>Gobierno</td></tr>
+<tr><td>Knowledge</td><td>Conocimiento</td></tr>
+<tr><td>Research</td><td>Investigación</td></tr>
+<tr><td>Although</td><td>Aunque</td></tr>
+<tr><td>However</td><td>Sin embargo</td></tr>
+<tr><td>Therefore</td><td>Por lo tanto</td></tr>
+<tr><td>Because</td><td>Porque</td></tr>
+</table>
+</div>
+
+<div class="topic">
+<h3>5.9. Comprensión lectora</h3>
+<p>Para leer un texto en inglés:</p>
+<ol>
+<li>Lee primero el título.</li>
+<li>Identifica el tema general.</li>
+<li>Busca palabras conocidas.</li>
+<li>Utiliza el contexto para deducir palabras desconocidas.</li>
+<li>Identifica la idea principal.</li>
+<li>Revisa qué pregunta se está haciendo.</li>
+</ol>
+<div class="example">
+Texto: "Maria wakes up at six every morning. She has breakfast and goes to school by bus."<br><br>
+Pregunta: How does Maria go to school?<br>
+Respuesta: By bus.
+</div>
+</div>
+</div>
+</section>
+
+<!-- SIMULACRO -->
+
+<section id="simulacro">
+<div class="area" style="border-color:#45d6a0">
+<h2>6. SIMULACRO DE REPASO</h2>
+<p>Responde las preguntas antes de revelar las soluciones.</p>
+
+<div id="questions"></div>
+
+<h3 id="score">Puntuación: 0 / 15</h3>
+<button onclick="checkAll()">Calificar simulacro</button>
+<button onclick="resetQuiz()">Reiniciar</button>
+</div>
+</section>
+
+<section>
+<div class="area">
+<h2>7. PLAN DE ESTUDIO DE 4 SEMANAS</h2>
+<table>
+<tr><th>Semana</th><th>Contenidos</th><th>Objetivo</th></tr>
+<tr><td>1</td><td>Matemáticas y Lectura Crítica</td><td>Dominar razonamiento y comprensión.</td></tr>
+<tr><td>2</td><td>Ciencias Naturales</td><td>Comprender fenómenos y fórmulas.</td></tr>
+<tr><td>3</td><td>Sociales e Inglés</td><td>Fortalecer análisis y comprensión.</td></tr>
+<tr><td>4</td><td>Repaso general y simulacros</td><td>Mejorar precisión y velocidad.</td></tr>
+</table>
+
+<h3>Rutina diaria sugerida</h3>
+<ul>
+<li>30 minutos de teoría.</li>
+<li>30 minutos de ejercicios.</li>
+<li>15 minutos de revisión de errores.</li>
+<li>15 minutos de repaso de conceptos.</li>
+</ul>
+
+<div class="tip">
+No memorices solamente las respuestas. Aprende por qué las otras opciones son incorrectas. Esa es una de las habilidades más importantes para el ICFES.
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<h3>GUÍA DPE PRE SABER | GRADO 10°</h3>
+<p>Material educativo de preparación y repaso.</p>
+<p>Estudiar, practicar, analizar y mejorar.</p>
+<button onclick="window.print()">Imprimir / Guardar como PDF</button>
+</footer>
+
+<script>
+const questions = [
+{
+area:"Matemáticas",
+q:"Un producto cuesta $80.000 y aumenta su precio un 15 %. ¿Cuál es el nuevo precio?",
+a:["$88.000","$90.000","$92.000","$95.000"],
+c:2,
+e:"El 15 % de 80.000 es 12.000. El nuevo precio es 92.000."
+},
+{
+area:"Matemáticas",
+q:"Si 3x + 6 = 21, ¿cuánto vale x?",
+a:["3","5","7","9"],
+c:1,
+e:"3x = 21 - 6 = 15. Por tanto, x = 5."
+},
+{
+area:"Matemáticas",
+q:"¿Cuál es la media de 4, 6, 8 y 10?",
+a:["6","7","8","9"],
+c:1,
+e:"La suma es 28. Dividimos entre 4 y obtenemos 7."
+},
+{
+area:"Lectura Crítica",
+q:"Un texto presenta razones para prohibir la contaminación de los ríos. ¿Cuál es su intención principal?",
+a:["Narrar una historia","Defender una postura","Describir un paisaje","Entretener"],
+c:1,
+e:"Presenta argumentos para defender una posición."
+},
+{
+area:"Lectura Crítica",
+q:"Si un texto afirma que la educación reduce la desigualdad, ¿qué idea apoya esa afirmación?",
+a:["La educación amplía oportunidades","La educación elimina todos los problemas","La desigualdad no existe","El conocimiento es innecesario"],
+c:0,
+e:"La ampliación de oportunidades constituye una razón que apoya la afirmación."
+},
+{
+area:"Lectura Crítica",
+q:"¿Qué significa inferir?",
+a:["Copiar un texto","Memorizar palabras","Deducir información a partir de pistas","Cambiar el título"],
+c:2,
+e:"Inferir consiste en obtener conclusiones que no están expresadas directamente."
+},
+{
+area:"Ciencias Naturales",
+q:"¿Qué orgánulo participa principalmente en la producción de ATP durante la respiración celular?",
+a:["Núcleo","Mitocondria","Ribosoma","Membrana"],
+c:1,
+e:"La mitocondria es fundamental en la respiración celular."
+},
+{
+area:"Ciencias Naturales",
+q:"Si un cuerpo de 4 kg acelera a 3 m/s², ¿cuál es la fuerza neta?",
+a:["7 N","12 N","15 N","20 N"],
+c:1,
+e:"F = m × a = 4 × 3 = 12 N."
+},
+{
+area:"Ciencias Naturales",
+q:"¿Qué ocurre generalmente si disminuye la población de depredadores de los ratones?",
+a:["Los ratones pueden aumentar","Los ratones desaparecen","No hay ninguna relación","Los ratones se convierten en productores"],
+c:0,
+e:"Al reducirse la depredación, puede aumentar la supervivencia de los ratones."
+},
+{
+area:"Sociales",
+q:"¿Cuál es la principal función de la rama legislativa?",
+a:["Administrar hospitales","Crear leyes","Administrar justicia","Dirigir las fuerzas militares"],
+c:1,
+e:"El Congreso ejerce la función legislativa y otras funciones constitucionales."
+},
+{
+area:"Sociales",
+q:"¿Qué mecanismo protege los derechos fundamentales cuando son vulnerados o amenazados, bajo los requisitos constitucionales?",
+a:["Referendo","Acción de tutela","Plebiscito","Cabildo abierto"],
+c:1,
+e:"La acción de tutela protege derechos fundamentales."
+},
+{
+area:"Sociales",
+q:"¿Qué significa inflación?",
+a:["Disminución de la población","Aumento generalizado de precios","Aumento de las exportaciones","Reducción de impuestos"],
+c:1,
+e:"La inflación es el aumento generalizado y sostenido de los precios."
+},
+{
+area:"Inglés",
+q:"She _____ English every day.",
+a:["study","studies","studying","studied"],
+c:1,
+e:"Con she en presente simple se utiliza studies."
+},
+{
+area:"Inglés",
+q:"Yesterday, they _____ to the park.",
+a:["go","goes","went","going"],
+c:2,
+e:"Went es el pasado irregular del verbo go."
+},
+{
+area:"Inglés",
+q:"What is the meaning of 'although'?",
+a:["Porque","Por lo tanto","Aunque","Debajo"],
+c:2,
+e:"Although significa aunque."
+}
+];
+
+const container=document.getElementById("questions");
+
+questions.forEach((item,i)=>{
+const div=document.createElement("div");
+div.className="question";
+div.innerHTML=`
+<h4>${i+1}. ${item.area}</h4>
+<p>${item.q}</p>
+${item.a.map((a,j)=>`
+<label style="display:block;padding:6px">
+<input type="radio" name="q${i}" value="${j}">
+${String.fromCharCode(65+j)}. ${a}
+</label>
+`).join("")}
+<div class="answer" id="ans${i}">
+<strong>Respuesta: ${String.fromCharCode(65+item.c)}.</strong><br>
+${item.e}
+</div>
+`;
+container.appendChild(div);
+});
+
+function checkAll(){
+let score=0;
+let answered=0;
+
+questions.forEach((q,i)=>{
+const selected=document.querySelector(`input[name="q${i}"]:checked`);
+const answer=document.getElementById("ans"+i);
+answer.style.display="block";
+
+if(selected){
+answered++;
+if(Number(selected.value)===q.c) score++;
+}
+});
+
+document.getElementById("score").textContent=
+`Resultado: ${score} / 15 | Respondidas: ${answered} / 15`;
+}
+
+function resetQuiz(){
+document.querySelectorAll('input[type="radio"]').forEach(x=>x.checked=false);
+document.querySelectorAll(".answer").forEach(x=>x.style.display="none");
+document.getElementById("score").textContent="Puntuación: 0 / 15";
+}
+</script>
+
+</body>
+</html>
